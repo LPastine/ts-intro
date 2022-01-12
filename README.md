@@ -33,3 +33,23 @@ Settings > [insert] single quotes > Tick on Prettier Single Quote
 Settings > [leave search bar empty] > Editor: Tab Size => 2
 
 6. Set theme to 'Solarized Light'
+
+## Compiling TS to JS
+
+We have to take into account that TS isn't recognized by browsers, so we first need to compile the TS into JS
+
+```bash
+tsc index.ts
+```
+
+Run the code to test it
+
+```bash
+node index.js
+```
+
+In order to do both (compile and run) in one command we use:
+
+```bash
+ts-node index.ts
+```
