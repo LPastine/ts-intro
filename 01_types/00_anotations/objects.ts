@@ -11,6 +11,6 @@ const profile = {
 }
 
 // We ignore de redeclaration of the variables
-const { age }: { age: number } = profile
-const { age, name }: { age: number; name: string } = profile
+// const { age }: { age: number } = profile
+// const { age, name }: { age: number; name: string } = profile
 const { coords: { lat, lng } }: {coords: { lat: number, lng: number}} = profile
