@@ -53,3 +53,9 @@ In order to do both (compile and run) in one command we use:
 ```bash
 ts-node index.ts
 ```
+
+## Tool to help us run TypeScript in the browser
+
+```bash
+npm install -g parcel-bundler
+```
